@@ -1,31 +1,32 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+## About Jeux De Mots
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Jeux_De_Mots is an application about word games. You type word and search it. The word gets searched locally first and if it is not present in local index then it is fetched from online Word Dump. Everything about the word is fetched: its description, relations, relations to other words, and many other things along side it.
 
-## About Laravel
+- [Online Word Dump](http://www.jeuxdemots.org).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+## Architecture 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Application is divided into two modules:
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+- App
+- MeliBlue
 
-## Learning Laravel
+#### App
+App Module handles the main layout of the application and application routing. Main controller are NodeController and Hoe Controller. Node Controller is called when the search is requested and it passes the control to MeliBlue module to process the request and return the result.
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+#### MeliBlue
+MeliBlue module handles the [elasticsearch](https://www.elastic.co) and the main API to fetch the word from online word dump.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+## Database or Elasticsearch
+Instead of database, elasticsearch has been used to contain large amount of data and for fast search. This increases the performance of the application.
+
+
+## Interface or Design
+Main layout of the application is created in Vue.Js framework. Which is located in resources/js.
+
+## Animation
+Third party library has been used to create a beautiful animation onclick. It has been added to main layout page alongside main vue instance.
+Its located in resources/js.
 
 ## Laravel Sponsors
 
