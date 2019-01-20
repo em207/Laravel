@@ -10,12 +10,12 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <!-- Styles -->
-    <link rel="stylesheet" href="/public/css/app.css">
+    <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
 <home errors="{{$errors->default->first('reason')}}"></home>
 <!-- JavaScript -->
-<script src="/public/js/app.js"></script>
+<script src="/js/app.js"></script>
 <script>
     const app = new Vue({
         el: 'home',
