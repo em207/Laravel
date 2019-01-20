@@ -55,7 +55,7 @@
 		 "php artisan clear-compiled",
 		 "php artisan optimize",
 		 "chmod -R 777 public/"
-		 "chmod -R 666 storage/"
+		 "chmod -R 777 storage/"
     ],
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
