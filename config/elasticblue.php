@@ -2,7 +2,7 @@
 
 return [
     'connection' => [
-        'hosts' => ['192.168.10.10:9200'],
+        'hosts' => ['https://ash-127634581.eu-west-1.bonsaisearch.net/'],
         'logger' => Elasticsearch\ClientBuilder::defaultLogger(storage_path('logs/elastic-search.log'), 400),
         'retries' => 1,
     ],
