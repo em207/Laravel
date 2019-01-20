@@ -29,7 +29,7 @@ Its located in resources/js.
 
 ## How to make it work?
 
-####Pre-Requisites:
+#### Pre-Requisites:
 - PHP is installed
 - Composer is installed
 - npm is installed
@@ -41,7 +41,7 @@ Its located in resources/js.
     - nodes and nodes-cache
 
 
-####Execute Followings
+#### Execute Followings
 - composer update
 - npm run install
 - cp .env.example .env
