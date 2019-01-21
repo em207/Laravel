@@ -47157,8 +47157,16 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "flex-center position-ref full-height" }, [
       _c("div", { staticClass: "content container-fluid" }, [
+        _c("img", {
+          staticClass: "img-fluid",
+          attrs: {
+            src: "http://www.jeuxdemots.site/assets/logo.png",
+            alt: "logo"
+          }
+        }),
+        _vm._v(" "),
         _c("div", { staticClass: "row title m-b-md" }, [
-          _vm._v("\n            jeux de mots\n                "),
+          _vm._v("\n            ______\n                "),
           _c("div", { staticClass: "searchbar col-sm-6 col-sm-offset-3" }, [
             _c("form", { attrs: { action: "/search" } }, [
               _c("div", { staticClass: "input-group" }, [
