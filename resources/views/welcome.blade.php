@@ -13,6 +13,24 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
+
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a class="navbar-brand" href="/" title="Jeux De Mots">JDM</a></li>
+        </ul>
+    </div>
+</nav>
+
+
 <home errors="{{$errors->default->first('reason')}}"></home>
 <!-- JavaScript -->
 <script src="/js/app.js"></script>
