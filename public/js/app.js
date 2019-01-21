@@ -47141,7 +47141,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 function init() {
     __webpack_require__(75); // adding poum
@@ -48664,16 +48663,14 @@ var render = function() {
                 }),
                 _vm._v(" "),
                 _vm._m(0)
-              ]),
-              _vm._v(" "),
-              _vm._m(1)
+              ])
             ])
           ])
         ])
       ])
     ]),
     _vm._v(" "),
-    _vm._m(2)
+    _vm._m(1)
   ])
 }
 var staticRenderFns = [
@@ -48688,22 +48685,6 @@ var staticRenderFns = [
         [_c("i", { staticClass: "glyphicon glyphicon-search" })]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      {
-        staticClass: "h6",
-        attrs: { "data-toggle": "modal", href: "#myModal" }
-      },
-      [
-        _vm._v("Aide "),
-        _c("i", { staticClass: "glyphicon glyphicon-question-sign" })
-      ]
-    )
   },
   function() {
     var _vm = this

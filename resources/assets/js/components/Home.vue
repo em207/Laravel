@@ -18,8 +18,7 @@
                                                                       type="submit">
                                 <i class="glyphicon glyphicon-search"></i></button></span>
                             </div><!-- /input-group -->
-                            <a class="h6" data-toggle="modal" href="#myModal">Aide <i
-                                    class="glyphicon glyphicon-question-sign"></i></a></li>
+                            </li>
                         </form>
                     </div>
                 </div>
