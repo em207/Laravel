@@ -43873,9 +43873,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
 
 
 
@@ -46722,7 +46719,7 @@ var render = function() {
           _vm._v(" "),
           _vm.compiledMarkdown
             ? _c("div", [
-                _c("h3", [_vm._v("» Description")]),
+                _c("h3", [_vm._v("» Définition")]),
                 _vm._v(" "),
                 _c("div", {
                   attrs: { id: "description" },
@@ -46755,22 +46752,6 @@ var render = function() {
             })
           }),
           1
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-sm-3 hidden-xs" },
-          [
-            _vm.relationTypes
-              ? _c("sidebar", {
-                  attrs: {
-                    relationTypes: _vm.relationTypes,
-                    activeIndex: _vm.currentRelationType
-                  }
-                })
-              : _vm._e()
-          ],
-          1
         )
       ])
     ])
@@ -46788,7 +46769,7 @@ var staticRenderFns = [
           staticClass: "navbar-brand",
           attrs: { href: "/", title: "Jeux De Mots" }
         },
-        [_vm._v("\n                    JDM\n                ")]
+        [_vm._v("\n                    Accueil\n                ")]
       )
     ])
   }

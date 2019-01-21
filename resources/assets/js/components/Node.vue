@@ -4,7 +4,7 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="/" title="Jeux De Mots">
-                        JDM
+                        Accueil
                     </a>
                 </div>
                 <ul class="nav navbar-nav">
@@ -44,7 +44,7 @@
                     </div> <!--  /Raffinements sémantiques -->
 
                     <div v-if="compiledMarkdown"> <!-- Description -->
-                        <h3>&raquo; Description</h3>
+                        <h3>&raquo; Définition</h3>
                         <div id="description" v-html="compiledMarkdown"></div>
                     </div>
 
@@ -59,10 +59,7 @@
                                    :index="index"
                                    :relationType="relationType" :nodeId="node.id"></relation-type>
                 </div>
-                <div class="col-sm-3 hidden-xs">
-                    <sidebar v-if="relationTypes" :relationTypes="relationTypes"
-                             :activeIndex="currentRelationType"></sidebar>
-                </div>
+                
             </div>
         </div>
     </div>
