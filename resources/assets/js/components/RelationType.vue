@@ -25,12 +25,6 @@
                 </ul>
             </div>
             
-
-            <div class=" inner-addon left-addon">
-                <i class="glyphicon glyphicon-search"></i>
-                <input type="text" :value="search" @input="searchWord($event.target.value)" class="form-control"
-                       placeholder="Rechercher">
-            </div>
         </div>
         <!-- definition -->
         <div class="relation-type-content">

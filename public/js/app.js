@@ -45566,12 +45566,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
 
 
 
@@ -45933,21 +45927,6 @@ var render = function() {
             )
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: " inner-addon left-addon" }, [
-        _c("i", { staticClass: "glyphicon glyphicon-search" }),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Rechercher" },
-          domProps: { value: _vm.search },
-          on: {
-            input: function($event) {
-              _vm.searchWord($event.target.value)
-            }
-          }
-        })
       ])
     ]),
     _vm._v(" "),
