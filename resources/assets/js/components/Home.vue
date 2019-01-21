@@ -7,7 +7,7 @@
         </div>
         <div class="flex-center position-ref full-height">
 
-            <img src="jdm_logo.png" align="center">
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png" alt="logo"/>
 
             <div class="content container-fluid">
                 <div class="row title m-b-md">

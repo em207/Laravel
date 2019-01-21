@@ -47158,7 +47158,13 @@ var render = function() {
       : _vm._e(),
     _vm._v(" "),
     _c("div", { staticClass: "flex-center position-ref full-height" }, [
-      _c("img", { attrs: { src: "jdm_logo.png", align: "center" } }),
+      _c("img", {
+        attrs: {
+          src:
+            "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png",
+          alt: "logo"
+        }
+      }),
       _vm._v(" "),
       _c("div", { staticClass: "content container-fluid" }, [
         _c("div", { staticClass: "row title m-b-md" }, [
