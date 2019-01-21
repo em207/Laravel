@@ -18,7 +18,8 @@
                                                                       type="submit">
                                 <i class="glyphicon glyphicon-search"></i></button></span>
                             </div><!-- /input-group -->
-                            </li>
+                            <!--<a class="h6" data-toggle="modal" href="#myModal">Aide <i
+                                    class="glyphicon glyphicon-question-sign"></i></a>--></li>
                         </form>
                     </div>
                 </div>
@@ -29,7 +30,7 @@
             <div class="modal-dialog">
 
                 <!-- Modal content-->
-                <div class="modal-content">
+                <!-- <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Aide</h4>
@@ -52,7 +53,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div> -->
     </div>
