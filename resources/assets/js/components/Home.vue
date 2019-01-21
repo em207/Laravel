@@ -9,6 +9,7 @@
             <div class="content container-fluid">
             <img src="http://www.jeuxdemots.site/assets/logo.png" alt="logo"/>
                 <div class="row title m-b-md">
+                ___________________________________________
                     <div class="searchbar col-sm-6 col-sm-offset-3">
                         <form action="/search">
                             <div class="input-group">
