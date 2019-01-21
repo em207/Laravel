@@ -45842,8 +45842,7 @@ var render = function() {
     "a",
     {
       staticClass: "word",
-      attrs: { id: _vm.xmlId, href: "node?word=" + _vm.word.name },
-      on: { mouseover: _vm.onMouseOver, mouseleave: _vm.onMouseLeave }
+      attrs: { id: _vm.xmlId, href: "node?word=" + _vm.word.name }
     },
     [_vm._v(_vm._s(_vm.name()))]
   )

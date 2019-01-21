@@ -1,5 +1,5 @@
 <template>
-    <a :id="xmlId" class="word" :href="'node?word=' +word.name" @mouseover="onMouseOver" @mouseleave="onMouseLeave">{{
+    <a :id="xmlId" class="word" :href="'node?word=' +word.name" >{{
         name()}}</a>
 </template>
 
