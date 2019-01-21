@@ -18,5 +18,9 @@
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
     "vue": "^2.1.10"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "imagemin-pngquant": "^5.0.1"
   }
 }
