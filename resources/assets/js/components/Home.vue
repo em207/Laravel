@@ -6,10 +6,8 @@
             {{errors}}
         </div>
         <div class="flex-center position-ref full-height">
-
-            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png" alt="logo"/>
-
             <div class="content container-fluid">
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png" alt="logo"/>
                 <div class="row title m-b-md">
                     Jeu de Mots
                     <div class="searchbar col-sm-6 col-sm-offset-3">

@@ -47113,8 +47113,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -47158,15 +47156,15 @@ var render = function() {
       : _vm._e(),
     _vm._v(" "),
     _c("div", { staticClass: "flex-center position-ref full-height" }, [
-      _c("img", {
-        attrs: {
-          src:
-            "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png",
-          alt: "logo"
-        }
-      }),
-      _vm._v(" "),
       _c("div", { staticClass: "content container-fluid" }, [
+        _c("img", {
+          attrs: {
+            src:
+              "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png",
+            alt: "logo"
+          }
+        }),
+        _vm._v(" "),
         _c("div", { staticClass: "row title m-b-md" }, [
           _vm._v("\n                Jeu de Mots\n                "),
           _c("div", { staticClass: "searchbar col-sm-6 col-sm-offset-3" }, [
