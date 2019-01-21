@@ -30,11 +30,8 @@
 </template>
 <script>
 
-<!--
-    function init() {
-       require('../poum.js') // adding poum
-    }
--->
+
+    
 
     export default {
         mounted() {
