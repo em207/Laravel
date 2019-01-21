@@ -25,7 +25,7 @@
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-            <li><a class="navbar-brand" href="/" title="Jeux De Mots">JDM</a></li>
+            <li><a href="/"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png" height="30" width="156" /></a></li>
         </ul>
     </div>
 </nav>
