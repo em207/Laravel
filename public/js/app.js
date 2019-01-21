@@ -47112,7 +47112,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -47165,7 +47164,6 @@ var render = function() {
         }),
         _vm._v(" "),
         _c("div", { staticClass: "row title m-b-md" }, [
-          _vm._v("\n                Jeux de Mots\n                "),
           _c("div", { staticClass: "searchbar col-sm-6 col-sm-offset-3" }, [
             _c("form", { attrs: { action: "/search" } }, [
               _c("div", { staticClass: "input-group" }, [
