@@ -47112,35 +47112,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 function init() {
     __webpack_require__(75); // adding poum
@@ -48668,9 +48639,7 @@ var render = function() {
           ])
         ])
       ])
-    ]),
-    _vm._v(" "),
-    _vm._m(1)
+    ])
   ])
 }
 var staticRenderFns = [
@@ -48685,96 +48654,6 @@ var staticRenderFns = [
         [_c("i", { staticClass: "glyphicon glyphicon-search" })]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "modal fade", attrs: { id: "myModal", role: "dialog" } },
-      [
-        _c("div", { staticClass: "modal-dialog" }, [
-          _c("div", { staticClass: "modal-content" }, [
-            _c("div", { staticClass: "modal-header" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "close",
-                  attrs: { type: "button", "data-dismiss": "modal" }
-                },
-                [_vm._v("×")]
-              ),
-              _vm._v(" "),
-              _c("h4", { staticClass: "modal-title" }, [_vm._v("Aide")])
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "modal-body",
-                staticStyle: { "font-weight": "bold" }
-              },
-              [
-                _c("p", [
-                  _vm._v("2 types de recherches sont possibles :"),
-                  _c("br")
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [
-                    _c("u", [_vm._v("Recherche exacte")]),
-                    _vm._v(" en tapant le mot complet. Exemple : "),
-                    _c("b", { staticStyle: { color: "#3097D1" } }, [
-                      _vm._v("chat")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("u", [_vm._v("Recherche approximative")]),
-                    _vm._v(" en préfixant le mot d'un "),
-                    _c("b", { staticStyle: { color: "#3097D1" } }, [
-                      _vm._v(".*")
-                    ]),
-                    _vm._v(
-                      "ou en\n                            le rajoutant à la fin\n                            "
-                    ),
-                    _c("br"),
-                    _vm._v("Exemple : "),
-                    _c("b", { staticStyle: { color: "#3097D1" } }, [
-                      _vm._v(".*chat")
-                    ]),
-                    _vm._v(" retournera achat et "),
-                    _c("b", { staticStyle: { color: "#3097D1" } }, [
-                      _vm._v("chat.*")
-                    ]),
-                    _vm._v(" retournera chaton\n                        ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _c("b", [_vm._v("Ps:")]),
-                  _vm._v(
-                    " il est également possible d'utiliser des expressions régulières plus complèxes !\n                    "
-                  )
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "modal-footer" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-default",
-                  attrs: { type: "button", "data-dismiss": "modal" }
-                },
-                [_vm._v("Fermer")]
-              )
-            ])
-          ])
-        ])
-      ]
-    )
   }
 ]
 render._withStripped = true
