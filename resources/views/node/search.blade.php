@@ -20,7 +20,7 @@
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-            <li><a class="navbar-brand" href="/" title="Jeux De Mots">JDM</a></li>
+            <li><a class="navbar-brand" href="/" title="Jeux De Mots">Accueil</a></li>
         </ul>
     </div>
 </nav>
