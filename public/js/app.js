@@ -47165,9 +47165,7 @@ var render = function() {
         }),
         _vm._v(" "),
         _c("div", { staticClass: "row title m-b-md" }, [
-          _vm._v(
-            "\n            ___________________________________________\n                "
-          ),
+          _vm._v("\n            ____________\n                "),
           _c("div", { staticClass: "searchbar col-sm-6 col-sm-offset-3" }, [
             _c("form", { attrs: { action: "/search" } }, [
               _c("div", { staticClass: "input-group" }, [
