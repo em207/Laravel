@@ -45575,15 +45575,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -45910,8 +45901,6 @@ var render = function() {
           [
             _c("span", { staticClass: "glyphicon glyphicon-filter" }),
             _vm._v(" "),
-            _vm.order === "weight" ? _c("span", [_vm._v("Poids")]) : _vm._e(),
-            _vm._v(" "),
             _vm.order === "name" ? _c("span", [_vm._v("Nom")]) : _vm._e(),
             _vm._v(" "),
             _c("span", { staticClass: "caret" })
@@ -45947,46 +45936,6 @@ var render = function() {
             )
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "btn-group" }, [
-        _c(
-          "button",
-          {
-            staticClass: "btn btn-default",
-            class: { active: this.sortBy === "asc" },
-            attrs: { type: "button", disabled: _vm.sortBy === "asc" },
-            on: {
-              click: function($event) {
-                _vm.sortBy = "asc"
-              }
-            }
-          },
-          [
-            _c("span", {
-              staticClass: "glyphicon glyphicon-sort-by-attributes"
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "button",
-          {
-            staticClass: "btn btn-default",
-            class: { active: this.sortBy === "desc" },
-            attrs: { type: "button", disabled: _vm.sortBy === "desc" },
-            on: {
-              click: function($event) {
-                _vm.sortBy = "desc"
-              }
-            }
-          },
-          [
-            _c("span", {
-              staticClass: "glyphicon glyphicon-sort-by-attributes-alt"
-            })
-          ]
-        )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: " inner-addon left-addon" }, [

@@ -11,7 +11,6 @@
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                     <span class="glyphicon glyphicon-filter"></span>
-                    <span v-if="order === 'weight'">Poids</span>
                     <span v-if="order === 'name'">Nom</span>
                     <span class="caret"></span>
                 </button>
@@ -25,15 +24,7 @@
                     </a></li>
                 </ul>
             </div>
-            <div class="btn-group">
-                <button type="button" class="btn btn-default"
-                        :class="{active: this.sortBy === 'asc'}" :disabled="sortBy === 'asc'" @click="sortBy = 'asc'">
-                    <span class="glyphicon glyphicon-sort-by-attributes"></span></button>
-                <button type="button" class="btn btn-default"
-                        :class="{active: this.sortBy === 'desc'}" :disabled="sortBy === 'desc'"
-                        @click="sortBy = 'desc'">
-                    <span class="glyphicon glyphicon-sort-by-attributes-alt"></span></button>
-            </div>
+            
 
             <div class=" inner-addon left-addon">
                 <i class="glyphicon glyphicon-search"></i>
