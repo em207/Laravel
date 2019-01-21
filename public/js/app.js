@@ -47159,8 +47159,7 @@ var render = function() {
       _c("div", { staticClass: "content container-fluid" }, [
         _c("img", {
           attrs: {
-            src:
-              "https://upload.wikimedia.org/wikipedia/fr/thumb/8/84/JeuxDeMots_Logo.png/420px-JeuxDeMots_Logo.png",
+            src: "http://www.jeuxdemots.site/assets/logo.png",
             alt: "logo"
           }
         }),

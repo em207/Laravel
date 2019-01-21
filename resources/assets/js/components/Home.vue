@@ -7,7 +7,7 @@
         </div>
         <div class="flex-center position-ref full-height">
             <div class="content container-fluid">
-            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/84/JeuxDeMots_Logo.png/420px-JeuxDeMots_Logo.png" alt="logo"/>
+            <img src="http://www.jeuxdemots.site/assets/logo.png" alt="logo"/>
                 <div class="row title m-b-md">
                     Jeux de Mots
                     <div class="searchbar col-sm-6 col-sm-offset-3">
