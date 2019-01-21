@@ -7,9 +7,9 @@
         </div>
         <div class="flex-center position-ref full-height">
             <div class="content container-fluid">
-            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png" alt="logo"/>
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/84/JeuxDeMots_Logo.png/420px-JeuxDeMots_Logo.png" alt="logo"/>
                 <div class="row title m-b-md">
-                    <!--Jeu de Mots-->
+                    Jeux de Mots
                     <div class="searchbar col-sm-6 col-sm-offset-3">
                         <form action="/search">
                             <div class="input-group">

@@ -47160,12 +47160,13 @@ var render = function() {
         _c("img", {
           attrs: {
             src:
-              "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/JDM_jeu_principal.png/220px-JDM_jeu_principal.png",
+              "https://upload.wikimedia.org/wikipedia/fr/thumb/8/84/JeuxDeMots_Logo.png/420px-JeuxDeMots_Logo.png",
             alt: "logo"
           }
         }),
         _vm._v(" "),
         _c("div", { staticClass: "row title m-b-md" }, [
+          _vm._v("\n                Jeux de Mots\n                "),
           _c("div", { staticClass: "searchbar col-sm-6 col-sm-offset-3" }, [
             _c("form", { attrs: { action: "/search" } }, [
               _c("div", { staticClass: "input-group" }, [
