@@ -6,6 +6,9 @@
             {{errors}}
         </div>
         <div class="flex-center position-ref full-height">
+
+            <img src="jdm_logo.png" align="center">
+
             <div class="content container-fluid">
                 <div class="row title m-b-md">
                     Jeu de Mots
@@ -28,10 +31,7 @@
         
     </div>
 </template>
-<script>
-
-
-    
+<script>    
 
     export default {
         mounted() {

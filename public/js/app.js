@@ -47112,6 +47112,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -47155,6 +47158,8 @@ var render = function() {
       : _vm._e(),
     _vm._v(" "),
     _c("div", { staticClass: "flex-center position-ref full-height" }, [
+      _c("img", { attrs: { src: "jdm_logo.png", align: "center" } }),
+      _vm._v(" "),
       _c("div", { staticClass: "content container-fluid" }, [
         _c("div", { staticClass: "row title m-b-md" }, [
           _vm._v("\n                Jeu de Mots\n                "),
