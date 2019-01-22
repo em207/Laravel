@@ -17,31 +17,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="title" class="h2">{{getName}}</div> <!-- Titre -->
-                    <div id="part-of-speech">
-                        <ul v-if="getPos" class="list-inline"> <!-- Part of speech -->
-                            <li v-for="item in getPos">
-                                <word prefix="pr" v-on:card="displayCard" v-on:uncard="destroyCard"
-                                      :key="item.id" :id="item.id"
-                                      :word="item.node"></word>
-                            </li>
-                        </ul>
-                    </div>
-                    <div v-if="getSemRefin" id="semantic-refinement"> <!-- Raffinements sémantiques -->
-                        <div v-if="getSemRefin.out.length > 0">
-                            Voulez-vous dire ?
-                            <word prefix="sr" v-on:card="displayCard" v-on:uncard="destroyCard"
-                                  v-for="item in getSemRefin.out" :key="item.id"
-                                  :id="item.id"
-                                  :word="item.node"></word>
-                        </div>
-                        <div v-if="getSemRefin.in.length > 0">
-                            Est généralisé par
-                            <word prefix="sr" v-on:card="displayCard" v-on:uncard="destroyCard"
-                                  v-for="item in getSemRefin.in" :key="item.id"
-                                  :id="item.id"
-                                  :word="item.node"></word>
-                        </div>
-                    </div> <!--  /Raffinements sémantiques -->
+                    
+                    
 
                     <div v-if="compiledMarkdown"> <!-- Description -->
                         <h3>&raquo; Définition</h3>

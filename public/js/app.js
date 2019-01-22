@@ -43850,29 +43850,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -46498,85 +46475,6 @@ var render = function() {
           _c("div", { staticClass: "h2", attrs: { id: "title" } }, [
             _vm._v(_vm._s(_vm.getName))
           ]),
-          _vm._v(" "),
-          _c("div", { attrs: { id: "part-of-speech" } }, [
-            _vm.getPos
-              ? _c(
-                  "ul",
-                  { staticClass: "list-inline" },
-                  _vm._l(_vm.getPos, function(item) {
-                    return _c(
-                      "li",
-                      [
-                        _c("word", {
-                          key: item.id,
-                          attrs: { prefix: "pr", id: item.id, word: item.node },
-                          on: { card: _vm.displayCard, uncard: _vm.destroyCard }
-                        })
-                      ],
-                      1
-                    )
-                  }),
-                  0
-                )
-              : _vm._e()
-          ]),
-          _vm._v(" "),
-          _vm.getSemRefin
-            ? _c("div", { attrs: { id: "semantic-refinement" } }, [
-                _vm.getSemRefin.out.length > 0
-                  ? _c(
-                      "div",
-                      [
-                        _vm._v(
-                          "\n                        Voulez-vous dire ?\n                        "
-                        ),
-                        _vm._l(_vm.getSemRefin.out, function(item) {
-                          return _c("word", {
-                            key: item.id,
-                            attrs: {
-                              prefix: "sr",
-                              id: item.id,
-                              word: item.node
-                            },
-                            on: {
-                              card: _vm.displayCard,
-                              uncard: _vm.destroyCard
-                            }
-                          })
-                        })
-                      ],
-                      2
-                    )
-                  : _vm._e(),
-                _vm._v(" "),
-                _vm.getSemRefin.in.length > 0
-                  ? _c(
-                      "div",
-                      [
-                        _vm._v(
-                          "\n                        Est généralisé par\n                        "
-                        ),
-                        _vm._l(_vm.getSemRefin.in, function(item) {
-                          return _c("word", {
-                            key: item.id,
-                            attrs: {
-                              prefix: "sr",
-                              id: item.id,
-                              word: item.node
-                            },
-                            on: {
-                              card: _vm.displayCard,
-                              uncard: _vm.destroyCard
-                            }
-                          })
-                        })
-                      ],
-                      2
-                    )
-                  : _vm._e()
-              ])
-            : _vm._e(),
           _vm._v(" "),
           _vm.compiledMarkdown
             ? _c("div", [
