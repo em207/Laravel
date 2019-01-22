@@ -45541,30 +45541,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -45873,40 +45849,6 @@ var render = function() {
           _c("i", { staticClass: "glyphicon glyphicon-link" })
         ]),
         _vm._v("\n            " + _vm._s(_vm.relationType.name))
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "btn-group" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("ul", { staticClass: "dropdown-menu" }, [
-          _c("li", { class: { active: _vm.order === "weight" } }, [
-            _c(
-              "a",
-              {
-                on: {
-                  click: function($event) {
-                    _vm.order = "weight"
-                  }
-                }
-              },
-              [_vm._v("\n                    Poids")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", { class: { active: _vm.order === "name" } }, [
-            _c(
-              "a",
-              {
-                on: {
-                  click: function($event) {
-                    _vm.order = "name"
-                  }
-                }
-              },
-              [_vm._v("Nom\n                ")]
-            )
-          ])
-        ])
       ])
     ]),
     _vm._v(" "),
@@ -45918,96 +45860,56 @@ var render = function() {
       _vm._v(" "),
       _vm.inbound.rels.length > 0
         ? _c("div", { staticClass: "relations-in" }, [
-            _vm._m(1),
+            _vm._m(0),
             _vm._v(" "),
             _c(
               "ul",
               { staticClass: "list-inline tags" },
-              [
-                _vm._l(_vm.inbound.rels, function(relation) {
-                  return _c(
-                    "li",
-                    [
-                      _c("word", {
-                        attrs: {
-                          id: relation.id,
-                          word: relation.node,
-                          weight: relation.weight
-                        },
-                        on: { card: _vm.displayCard, uncard: _vm.destroyCard }
-                      })
-                    ],
-                    1
-                  )
-                }),
-                _vm._v(" "),
-                _vm.inbound.next
-                  ? _c("li", [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-xs btn-default",
-                          attrs: { disabled: _vm.inbound.loading },
-                          on: { click: _vm.nextPageIn }
-                        },
-                        [
-                          _vm._v(
-                            ">\n                        voir plus...\n                    "
-                          )
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              2
+              _vm._l(_vm.inbound.rels, function(relation) {
+                return _c(
+                  "li",
+                  [
+                    _c("word", {
+                      attrs: {
+                        id: relation.id,
+                        word: relation.node,
+                        weight: relation.weight
+                      },
+                      on: { card: _vm.displayCard, uncard: _vm.destroyCard }
+                    })
+                  ],
+                  1
+                )
+              }),
+              0
             )
           ])
         : _vm._e(),
       _vm._v(" "),
       _vm.outbound.rels.length > 0
         ? _c("div", { staticClass: "relations-out" }, [
-            _vm._m(2),
+            _vm._m(1),
             _vm._v(" "),
             _c(
               "ul",
               { staticClass: "list-inline tags" },
-              [
-                _vm._l(_vm.outbound.rels, function(relation) {
-                  return _c(
-                    "li",
-                    [
-                      _c("word", {
-                        attrs: {
-                          id: relation.id,
-                          word: relation.node,
-                          weight: relation.weight
-                        },
-                        on: { card: _vm.displayCard, uncard: _vm.destroyCard }
-                      })
-                    ],
-                    1
-                  )
-                }),
-                _vm._v(" "),
-                _vm.outbound.next
-                  ? _c("li", [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-xs btn-default",
-                          attrs: { disabled: _vm.outbound.loading },
-                          on: { click: _vm.nextPageOut }
-                        },
-                        [
-                          _vm._v(
-                            ">\n                        voir plus...\n                    "
-                          )
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              2
+              _vm._l(_vm.outbound.rels, function(relation) {
+                return _c(
+                  "li",
+                  [
+                    _c("word", {
+                      attrs: {
+                        id: relation.id,
+                        word: relation.node,
+                        weight: relation.weight
+                      },
+                      on: { card: _vm.displayCard, uncard: _vm.destroyCard }
+                    })
+                  ],
+                  1
+                )
+              }),
+              0
             )
           ])
         : _vm._e()
@@ -46017,24 +45919,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "button",
-      {
-        staticClass: "btn btn-default dropdown-toggle",
-        attrs: {
-          type: "button",
-          "data-toggle": "dropdown",
-          "aria-haspopup": "true",
-          "aria-expanded": "false"
-        }
-      },
-      [_c("span", { staticClass: "caret" })]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

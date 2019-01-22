@@ -7,22 +7,7 @@
                 {{relationType.name}}</h3>
 
             <!-- Single button -->
-            <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                    
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li :class="{active: order === 'weight'}"><a @click="order =
-                    'weight'">
-                        Poids</a></li>
-                    <li
-                            :class="{active: order === 'name'}"><a
-                            @click="order = 'name'">Nom
-                    </a></li>
-                </ul>
-            </div>
+            
             
         </div>
         <!-- definition -->
@@ -36,11 +21,7 @@
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
                     </li>
-                    <li v-if="inbound.next">
-                        <button class="btn btn-xs btn-default" @click="nextPageIn" :disabled="inbound.loading">&gt;
-                            voir plus...
-                        </button>
-                    </li>
+                    
                 </ul>
             </div>
             <div v-if="outbound.rels.length > 0" class="relations-out">
@@ -49,11 +30,6 @@
                     <li v-for="relation in outbound.rels">
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
-                    </li>
-                    <li v-if="outbound.next">
-                        <button class="btn btn-xs btn-default" @click="nextPageOut" :disabled="outbound.loading">&gt;
-                            voir plus...
-                        </button>
                     </li>
                 </ul>
             </div>
