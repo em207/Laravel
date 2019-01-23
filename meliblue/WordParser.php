@@ -37,7 +37,8 @@ class WordParser
         while ($line !== false && !$isDefDoneYet) {
             if (!$areWeInDefYet) {
                 if ("<WARNING>" === substr($line, 0, 9)) {
-                    $error = "TOOBIG_USE_DUMP";
+                    //$error = "TOOBIG_USE_DUMP";
+                    $areWeInDefYet = true;
                 } elseif ("<def>" === $line) {
                     $areWeInDefYet = true;
                 }
