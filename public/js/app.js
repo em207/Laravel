@@ -45558,9 +45558,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     created: function created() {
         this.inbound.rels = this.relationType.relations.in;
-        this.inbound.next = this.inbound.rels.length === 30;
+        this.inbound.next = this.inbound.rels.length === 80;
         this.outbound.rels = this.relationType.relations.out;
-        this.outbound.next = this.outbound.rels.length === 30;
+        this.outbound.next = this.outbound.rels.length === 80;
     },
     mounted: function mounted() {
         console.log('RelationType ' + this.relationType.name + ' mounted');
