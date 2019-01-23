@@ -8,7 +8,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content container-fluid">
                 <div class="row title m-b-md">
-                Bienvenue sur Jeux de mots !
+                Jeux de mots !
                     <div class="searchbar col-sm-6 col-sm-offset-3">
                         <form action="/search">
                             <div class="input-group">
