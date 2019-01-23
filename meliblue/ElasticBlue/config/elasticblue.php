@@ -6,5 +6,5 @@ return [
         'logger' => Elasticsearch\ClientBuilder::defaultLogger(storage_path('logs/elastic-search.log'), 400),
         'retries' => 1,
     ],
-    'pagination' => 30,
+    'pagination' => 80,
 ];

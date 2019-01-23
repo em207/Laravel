@@ -19,7 +19,7 @@ class ElasticRelation extends ElasticBlueModel
 
     public static function nodeSearch(int $idNode, string $word): ?array
     {
-        $paginationSize = config('elasticblue.pagination', 30);
+        $paginationSize = config('elasticblue.pagination', 80);
 
         $params = [
             'index' => static::$index,
@@ -60,7 +60,7 @@ class ElasticRelation extends ElasticBlueModel
 
     public static function nodeRelationTypeSearch(int $idNode, int $idRelationType, string $word, int $page)
     {
-        $paginationSize = config('elasticblue.pagination', 30);
+        $paginationSize = config('elasticblue.pagination', 80);
 
         $params = [
             'index' => static::$index,
@@ -132,7 +132,7 @@ class ElasticRelation extends ElasticBlueModel
     public static function pagination(int $idNode, int $idRelationType, int $page, string $orderBy, string $sort):
     ?array
     {
-        $paginationSize = config('elasticblue.pagination', 30);
+        $paginationSize = config('elasticblue.pagination', 80);
 
         $sortOrder = [
             [$orderBy => ['order' => $sort]], // default sort :)
