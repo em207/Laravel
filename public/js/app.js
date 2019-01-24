@@ -45527,7 +45527,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 
@@ -45831,12 +45830,7 @@ var render = function() {
     _c("a", { staticClass: "anchor", attrs: { id: "rt" + _vm.index } }),
     _vm._v(" "),
     _c("div", { staticClass: "relation-type-header" }, [
-      _c("h3", [
-        _c("a", { attrs: { href: "#rt" + _vm.index } }, [
-          _c("i", { staticClass: "glyphicon glyphicon-link" })
-        ]),
-        _vm._v("\n            " + _vm._s(_vm.relationType.name))
-      ])
+      _c("h3", [_vm._v(_vm._s(_vm.relationType.name))])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "relation-type-content" }, [

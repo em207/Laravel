@@ -3,8 +3,7 @@
         <a :id="'rt'+index" class="anchor"></a> <!-- anchor -->
         <!-- relation-type-header -->
         <div class="relation-type-header">
-            <h3><a :href="'#rt'+index"><i class="glyphicon glyphicon-link"></i></a>
-                {{relationType.name}}</h3>
+            <h3>{{relationType.name}}</h3>
 
             <!-- Single button -->
             
