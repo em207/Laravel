@@ -7,5 +7,5 @@ return [
         'retries' => 1,
     ],
 
-    'pagination' => 80
+    'pagination' => 30
 ];
