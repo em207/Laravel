@@ -284,12 +284,10 @@
     }
 
     .relations-in > ul {
-        border-left: 2px blue solid;
         padding-left: 1em;
     }
 
     .relations-out > ul {
-        border-left: 2px green solid;
         padding-left: 1em;
     }
 
