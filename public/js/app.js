@@ -45845,7 +45845,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "ul",
-              { staticClass: "list-inline tags" },
+              { staticClass: "list-inline" },
               [
                 _vm._l(_vm.inbound.rels, function(relation) {
                   return _c(
@@ -45893,7 +45893,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "ul",
-              { staticClass: "list-inline tags" },
+              { staticClass: "list-inline" },
               [
                 _vm._l(_vm.outbound.rels, function(relation) {
                   return _c(

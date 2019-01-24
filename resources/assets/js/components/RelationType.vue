@@ -15,7 +15,7 @@
 
             <div v-if="inbound.rels.length > 0" class="relations-in">
                 <p><u>Relations Entrantes</u></p>
-                <ul class="list-inline tags">
+                <ul class="list-inline">
                     <li v-for="relation in inbound.rels">
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
@@ -30,7 +30,7 @@
             </div>
             <div v-if="outbound.rels.length > 0" class="relations-out">
                 <p><u>Relations Sortantes</u></p>
-                <ul class="list-inline tags">
+                <ul class="list-inline">
                     <li v-for="relation in outbound.rels">
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
