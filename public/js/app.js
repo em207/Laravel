@@ -45519,14 +45519,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -45846,43 +45838,23 @@ var render = function() {
             _c(
               "ul",
               { staticClass: "list-inline" },
-              [
-                _vm._l(_vm.inbound.rels, function(relation) {
-                  return _c(
-                    "li",
-                    [
-                      _c("word", {
-                        attrs: {
-                          id: relation.id,
-                          word: relation.node,
-                          weight: relation.weight
-                        },
-                        on: { card: _vm.displayCard, uncard: _vm.destroyCard }
-                      })
-                    ],
-                    1
-                  )
-                }),
-                _vm._v(" "),
-                _vm.inbound.next
-                  ? _c("li", [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-xs btn-default",
-                          attrs: { disabled: _vm.inbound.loading },
-                          on: { click: _vm.nextPageIn }
-                        },
-                        [
-                          _vm._v(
-                            ">\n                        voir plus...\n                    "
-                          )
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              2
+              _vm._l(_vm.inbound.rels, function(relation) {
+                return _c(
+                  "li",
+                  [
+                    _c("word", {
+                      attrs: {
+                        id: relation.id,
+                        word: relation.node,
+                        weight: relation.weight
+                      },
+                      on: { card: _vm.displayCard, uncard: _vm.destroyCard }
+                    })
+                  ],
+                  1
+                )
+              }),
+              0
             )
           ])
         : _vm._e(),
@@ -45894,43 +45866,23 @@ var render = function() {
             _c(
               "ul",
               { staticClass: "list-inline" },
-              [
-                _vm._l(_vm.outbound.rels, function(relation) {
-                  return _c(
-                    "li",
-                    [
-                      _c("word", {
-                        attrs: {
-                          id: relation.id,
-                          word: relation.node,
-                          weight: relation.weight
-                        },
-                        on: { card: _vm.displayCard, uncard: _vm.destroyCard }
-                      })
-                    ],
-                    1
-                  )
-                }),
-                _vm._v(" "),
-                _vm.outbound.next
-                  ? _c("li", [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-xs btn-default",
-                          attrs: { disabled: _vm.outbound.loading },
-                          on: { click: _vm.nextPageOut }
-                        },
-                        [
-                          _vm._v(
-                            ">\n                        voir plus...\n                    "
-                          )
-                        ]
-                      )
-                    ])
-                  : _vm._e()
-              ],
-              2
+              _vm._l(_vm.outbound.rels, function(relation) {
+                return _c(
+                  "li",
+                  [
+                    _c("word", {
+                      attrs: {
+                        id: relation.id,
+                        word: relation.node,
+                        weight: relation.weight
+                      },
+                      on: { card: _vm.displayCard, uncard: _vm.destroyCard }
+                    })
+                  ],
+                  1
+                )
+              }),
+              0
             )
           ])
         : _vm._e()

@@ -20,11 +20,7 @@
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
                     </li>
-                    <li v-if="inbound.next">
-                        <button class="btn btn-xs btn-default" @click="nextPageIn" :disabled="inbound.loading">&gt;
-                            voir plus...
-                        </button>
-                    </li>
+                    
                     
                 </ul>
             </div>
@@ -35,11 +31,7 @@
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
                     </li>
-                    <li v-if="outbound.next">
-                        <button class="btn btn-xs btn-default" @click="nextPageOut" :disabled="outbound.loading">&gt;
-                            voir plus...
-                        </button>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
