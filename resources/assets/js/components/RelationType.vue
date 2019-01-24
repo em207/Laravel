@@ -21,6 +21,11 @@
                         <word :id="relation.id" :word="relation.node" :weight="relation.weight"
                               @card="displayCard" @uncard="destroyCard"></word>
                     </li>
+                    <li v-if="inbound.next">
+                        <button class="btn btn-xs btn-default" @click="nextPageIn" :disabled="inbound.loading">&gt;
+                            voir plus...
+                        </button>
+                    </li>
                     
                 </ul>
             </div>
