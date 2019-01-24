@@ -51,7 +51,7 @@ class WordParser
                 $isDefDoneYet = true;
             } else {
                 $description .= trim(strip_tags($line))."\n";
-                $isDefDoneYet = true;
+                //$isDefDoneYet = true;
             }
 
             $line = strtok($separator);
