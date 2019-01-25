@@ -19,7 +19,7 @@ class ElasticNode extends ElasticBlueModel implements Jsonable
 
     public static function nodeSearch($query, $page = 0)
     {
-        $pagination = config('elasticblue.pagination', 30);
+        $pagination = config('elasticblue.pagination', 1000);
 
         $params = [
             'index' => static::$index,
@@ -52,7 +52,7 @@ class ElasticNode extends ElasticBlueModel implements Jsonable
 
     public static function nodeRegexpSearch($query, $page = 0)
     {
-        $pagination = config('elasticblue.pagination', 30);
+        $pagination = config('elasticblue.pagination', 1000);
 
         $params = [
             'index' => static::$index,
